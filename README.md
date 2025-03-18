@@ -124,10 +124,14 @@ Player 2 Can Join the Game Using a REST Client (All Requests Use POST Method)
 Example Response:{
 "token": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJwbGF5ZXIyIiwicm9sZSI6IlVTRVIiLCJpYXQiOjE3NDIxOTkzMDcsImV4cCI6MTc0MjIwMjkwN30.qJAf8ucvZm848l3bhY22pURUgbmWrVa6lEfxPtLn0VU"
 }
+
+
 3. Join an Existing Game
    Endpoint: POST http://localhost:8787/game/join/4
    Headers:Authorization: Bearer <your_jwt_token>
    Replace 4 with the Game ID you want to join.
+
+   
 4. Submit a Move
    Endpoint: POST http://localhost:8787/game/move
    Headers:Authorization: Bearer <your_jwt_token>
