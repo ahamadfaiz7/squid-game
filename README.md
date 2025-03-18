@@ -84,8 +84,8 @@ The backend is built using **Spring Boot**
 
 ### Steps to Run the Application from the Frontend UI
 
-1. **Clone the Repository** from [GitHub](git@github.com:ahamadfaiz7/squid-game.git) or https://github.com/ahamadfaiz7/squid-game.git
-2. The project is inside the repo cd squid-game/squid-games.
+1. **Clone the Repository** from git@github.com:ahamadfaiz7/squid-game.git or https://github.com/ahamadfaiz7/squid-game.git
+2. The project is under the folder cd squid-game/squid-games.
 4. **Import the Project** into your IDE and perform a **clean build** (The project follows a **Maven-based structure**).
 5. **Start the Backend** by running `RpsMinusOneApplication.java` in your IDE.
 6. Then cd to squid-ui which has the react Ui files. Run npm install to install the modules and then npm start to start the UI app.
