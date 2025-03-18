@@ -82,7 +82,7 @@ The backend is built using **Spring Boot**
 - **WebSockets**: Used to enable real-time communication between players.
 - **Spring WebSocket + React WebSocket Client**: Enables bidirectional updates.
 
-### Steps to Run the Application from the Frontend UI
+### Steps to Run the Application
 
 1. **Clone the Repository** from git@github.com:ahamadfaiz7/squid-game.git or https://github.com/ahamadfaiz7/squid-game.git
 2. The project is under the folder cd squid-game/squid-games.
@@ -101,6 +101,7 @@ The backend is built using **Spring Boot**
 - Log in to **H2 Database** and run: `SELECT * FROM GAMES;` to view past games.
 11. **Play the Game**:
 - Once both players have joined, they can **start playing** by submitting their moves.
+12. One user can play from the UI and another from the API . The steps are below.
 
 
 ### Steps to Run the Application from the Postman as an API
